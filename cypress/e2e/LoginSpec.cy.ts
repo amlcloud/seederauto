@@ -9,4 +9,4 @@ describe('seeder login Logout functionality tests', () => {
     
   })
 
-});
+}); 
