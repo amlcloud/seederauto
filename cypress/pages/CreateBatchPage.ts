@@ -5,6 +5,7 @@ const commonPage = new CommonPage();
 export class BatchesPage {
 
     public clickOnBatchesTab() {
+        cy.reload();
         commonPage.locateShadow().contains('BATCHES').click({ force: true });
     }
 

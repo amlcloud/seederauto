@@ -15,15 +15,9 @@ describe('Create Batch functionality test', () => {
     it('Add Batch', () => {
         batchesPage.clickOnBatchesTab();
         batchesPage.clickOnAddBatch();
-        cy.screenshot();
-        batchesPage.enterNewBatchDetailsAndSubmit("102", "TB2", "TB2 Desc");
-        cy.wait(1000);
-       
-        cy.reload();
-        cy.wait(1000);
-        // batchesPage.clickOnBatchesTab();
-        cy.screenshot();
+        batchesPage.enterNewBatchDetailsAndSubmit("103", "TB3", "TB3 Desc");
+        batchesPage.clickOnBatchesTab();
 
     })
   
-  }); 
+}); 
