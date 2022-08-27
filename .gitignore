@@ -6,3 +6,4 @@ cypress/downloads/*.csv
 cypress/reports/*.html
 .DS_Store
 cypress/reports/
+cypress/screenshots/
