@@ -5,4 +5,4 @@ cypress/screenshots/*.png
 cypress/downloads/*.csv
 cypress/reports/*.html
 .DS_Store
-
+cypress/reports/
