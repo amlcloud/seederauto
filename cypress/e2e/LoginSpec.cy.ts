@@ -1,12 +1,21 @@
 // <reference types="cypress" />
 
+import { LoginPage } from "../pages/loginPage";
+
 describe('seeder login Logout functionality tests', () => {
- 
-  it('Login with username and password', () => {
+
+  const loginPage = new LoginPage();
+
+
+  it('Login anonymous', () => {
     cy.visit('/');
-    cy.get('flt-semantics-placeholder').first().click({ force: true });
-    cy.findByFltSemanticsAriaLabel('log-in Anonymous').click({force:true});
-    
+    loginPage.clickLoginanonymous();
+
   })
 
-}); 
+  it('logout', () => {
+    loginPage.logOut();
+
+  })
+
+});

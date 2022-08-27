@@ -1,6 +1,8 @@
 node_modules
 package-lock.json
 cypress/.DS_Store
-cypress/screenshots
-cypress/reports
+cypress/screenshots/*.png
+cypress/downloads/*.csv
+cypress/reports/*.html
 .DS_Store
+
