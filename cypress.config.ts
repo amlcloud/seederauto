@@ -5,7 +5,7 @@ export default defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
     charts: true,
-    reportPageTitle: 'aml test automation report',
+    reportPageTitle: 'AML Seeder test automation report',
     embeddedScreenshots: true,
     inlineAssets: true,
     saveAllAttempts: false
